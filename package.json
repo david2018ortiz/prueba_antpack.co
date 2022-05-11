@@ -1,0 +1,23 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba desarrollo html y css",
+  "main": "index.js",
+  "scripts": {
+    "test": "run prueba"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david2018ortiz/prueba_antpack.co.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "David Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david2018ortiz/prueba_antpack.co/issues"
+  },
+  "homepage": "https://github.com/david2018ortiz/prueba_antpack.co#readme"
+}

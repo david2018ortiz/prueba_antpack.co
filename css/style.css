@@ -1,0 +1,825 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;  
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #252B42;
+}
+.container__header{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 50px;
+}
+.nav-link{
+    font-family: 'montserrat';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+}
+.container__main{
+    background-image: url("img/banner1.jpg");
+    height: 100vh;
+    width: 1200px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.content__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;  
+}
+.content h1{
+    font-family: 'montserrat';
+    font-weight: 800;
+    font-size: 58px;
+    color: white; 
+    font-style: normal;
+    line-height: 80px;    
+}
+.content p{
+    font-family: 'montserrat';
+    font-size: 20px;
+    color: white; 
+    font-style: normal;
+    line-height: 40px;
+    margin-bottom: 40px;   
+}
+.btn-now {
+    width: 185px;
+    height: 52px;
+    padding: 10px 36px;  
+    border-radius: 37px;
+    background: #23A6F0;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;        
+}
+.btn-outline {
+    width: 185px;
+    height: 52px;
+    padding: 10px 36px;  
+    border-radius: 37px;
+    border: solid 1px #ffffff;
+    background: #23a5f000;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.form__style{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 320px;
+    height: 610px;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.form__style h1{
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #252B42; 
+    font-style: normal;
+    line-height: 32px;  
+
+}
+.form__style label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.form__style input{
+    border: none;
+    outline: none;
+}
+.form__style select{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding-left: 0;
+}
+.form__style button{
+    width: 248px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 14px;
+}
+.nav_btn {
+    text-align: center;
+    width: 248px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.services__container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    padding-top: 60px;
+    padding: 80px 0px;
+}
+p.services__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.services__main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;   
+}
+.card{
+    width: 25%;
+    margin: 0 auto;   
+    border: none;
+}
+.card-body{
+    padding: 0px;
+}
+.card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 40px;
+    border-radius: 25px 25px 0px 0px !important;
+    background-color: #23A6F0;
+    color: white;
+}
+i.fa-solid.fa-user-group{
+    background-color: white;
+    padding: 15px;
+    color: #23A6F0;
+    border-radius: 120px;
+}
+.services__container p.card-text {
+    padding: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.card a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color:#23A6F0;
+}
+.review__main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    padding: 80px 40px;
+}
+#container__cardReview{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 40px;
+}
+.card__rewiew{
+    margin: 0 auto;
+    width: 30%;
+    border: solid 1px #0e0e0e0e;
+    border-radius: 10px;
+    padding: 15px;
+}
+p.clasificacion label{
+    color:yellow;
+    font-size: 40px;
+}
+p.clasificacion input{
+    display: none;
+}
+.card__rewiew img{
+    width: 60px;
+}
+.question__main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #FAFAFA;
+    padding: 80px 40px;
+}
+#container__cardQuestion{
+    width: 1200px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 60px 40px;
+}
+.card__question{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+i.fa-solid.fa-angle-right{
+    font-size: 25px;
+    color: #23A6F0;
+}
+.content__question h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.content__question p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.container__plan{
+    width: 1200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #FAFAFA;
+    padding-top: 100px;
+}
+.plans__main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+.card__plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 327px;
+    height: 665px;
+    background-color:white;
+    padding: 50px 25px;
+    border-radius: 10px;
+    border: solid 1px #23A6F0;
+}
+.card__plan h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: #252B42;
+}
+.card__plan h6{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.price p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #23A6F0;
+}
+p#price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 40px;
+    color: #23A6F0;
+}
+.card__plan ul{
+    list-style: none;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+.fa-circle-check{
+    font-size: 25px;    
+    color:#2DC071;
+    padding-right: 10px;
+}
+.disable{
+    font-size: 25px;  
+    color:#949494;
+    padding-right: 10px;
+}
+/* Active plans*/
+.card__plan.active{
+    background-color: #252B42;
+    width: 327px;
+    height: 705px;
+}
+.card__plan.active h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+}
+.card__plan.active h6{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.card__plan.active ul{
+    list-style: none;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color:white;
+}
+
+/*********************/
+
+#plan1{
+    padding: 15px 40px;
+    width: 246px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+}
+.subs__main{
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: #252B42;
+    padding: 50px;
+}
+.content__subs{
+    width: auto;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.content__subs h1{
+    color: white;
+}
+.form__subs{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border:solid 0px #ffffff;
+    border-radius: 10px;
+}
+.form__subs input{
+    outline: none;
+    border: none;
+    padding: 15px 15px;
+    background-color: transparent;
+}
+.form__subs button{
+    border: none;
+    background-color: #23A6F0;
+    padding: 15px 40px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+}
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.card__footer{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 80px;
+}
+.card__footer h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.card__footer ul{
+    list-style: none;
+    padding: 0;
+}
+.card__footer a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+}
+.container__footer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+}
+.social .fa-brands{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #23A6F0;
+}
+
+/* mobile responsive*/
+@media (max-width: 700px) {
+    h1{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    #button__nav{
+        display: none;
+    }
+    .container__main{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding: 15px;
+    }
+    .content{
+        margin: 0 auto;
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 10px;
+    }
+    .content__btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .content__form{
+        margin: 0 auto;
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 10px;
+    }
+    .form__style{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .services__container{
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 15px;
+    }
+    .services__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .card{
+        width: 90%;
+        height: auto;
+    }
+    .review__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 60px 15px;
+    }
+    .card__rewiew{
+        width: 90%;
+        height: auto;
+    }
+    #container__cardReview{
+        display: block;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .question__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 60px 20px;
+    }
+    #container__cardQuestion{
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .card__question{
+        margin-top: 25px;
+    }
+    .container__plan{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .plans__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .card__plan{
+        width: 80%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .card__plan.active{
+        width: 80%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .subs__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .form__subs{
+        display: flex;
+        width: 100%;
+    }
+    .form__subs form{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .container__footer{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .card__footer{
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    .social{
+        margin-bottom: 40px;
+    }
+    .container__footer p{
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    #button__nav{
+        display: none;
+    }
+    .container__main{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding: 15px;
+    }
+    .content{
+        margin: 0 auto;
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 10px;
+    }
+    .content__btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .content__form{
+        margin: 0 auto;
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 10px;
+    }
+    .form__style{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .services__container{
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 60px 15px;
+    }
+    .services__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .card{
+        width: 90%;
+        height: auto;
+    }
+    .review__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 60px 15px;
+    }
+    .card__rewiew{
+        width: 90%;
+        height: auto;
+    }
+    #container__cardReview{
+        display: block;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .question__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 60px 20px;
+    }
+    #container__cardQuestion{
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .card__question{
+        margin-top: 25px;
+    }
+    .container__plan{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .plans__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .card__plan{
+        width: 80%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .card__plan.active{
+        width: 80%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .subs__main{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding:40px 20px;
+    }
+    .form__subs form{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .container__footer{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .card__footer{
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    .social{
+        margin-bottom: 40px;
+    }
+    .container__footer p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    
+
+}
+
+
+
+
