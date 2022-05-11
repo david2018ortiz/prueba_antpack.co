@@ -31,7 +31,7 @@ h1{
     font-weight: 600;
 }
 .container__main{
-    background-image: url("img/banner1.jpg");
+    background-image: url("https://github.com/david2018ortiz/prueba_antpack.co/blob/master/img/banner1.jpg");
     height: 100vh;
     width: 1200px;
     background-repeat: no-repeat;
